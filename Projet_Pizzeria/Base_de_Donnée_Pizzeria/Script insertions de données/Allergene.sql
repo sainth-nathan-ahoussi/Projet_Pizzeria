@@ -1,0 +1,14 @@
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Gluten', 'Réactions gastro-intestinales, maux de tête');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Lactose', 'Problèmes digestifs, ballonnements');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Fructose', 'Problèmes digestifs, ballonnements');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Oeufs', 'Réactions allergiques, eczéma');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Fruits de mer', 'Réactions allergiques, difficultés respiratoires');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Arachides', 'Réactions allergiques graves');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Soja', 'Réactions allergiques, problèmes digestifs');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Noix', 'Réactions allergiques graves');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Céleri', 'Réactions allergiques, gonflement');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Moutarde', 'Réactions allergiques, irritation');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Graines de sésame', 'Réactions allergiques, problèmes digestifs');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Sulfites', 'Problèmes respiratoires, maux de tête');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Lupin', 'Réactions allergiques, problèmes digestifs');
+INSERT INTO Allergene (NomAllergene, EffetAllergene) VALUES ('Mollusques', 'Réactions allergiques, difficultés respiratoires');

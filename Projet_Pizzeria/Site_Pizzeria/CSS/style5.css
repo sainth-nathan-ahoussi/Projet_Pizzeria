@@ -1,0 +1,178 @@
+
+body {
+    margin: 0;
+    background-color: #1E1E1E;
+  }
+  
+  header, footer {
+    /* min-height: 100%; */
+    background-color: #F24822;
+    color: white;
+  
+    
+  }
+  
+  header {
+    position: static;
+    width: 100%;
+    justify-content: left;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F24822;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #F24822;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .sous-menu {
+    margin-top: var(--hauteur-menu);
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    border-radius: 2px;
+    overflow: hidden;
+    max-height: 0;
+  }
+  
+  .sous-menu > li > a {
+    height: 50px;
+    padding-left: 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+  }
+  
+  nav > ul > li > a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu-deroulant > a:after{
+    content: '▼';
+    font-size: 15px;
+    margin-left: 7px;
+    display: absolute;
+  }
+  
+  @keyframes apparitionSousMenu {
+    0% {
+      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
+      border-top: 3px solid #2169EC;
+    }
+    30% {
+      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    }
+    100% {
+      max-height: 50em;
+      border-top: 3px solid #2169EC;
+      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    }
+  }
+  
+  .menu-deroulant:hover > .sous-menu {
+    animation: apparitionSousMenu 1s forwards;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase; 
+  }
+  
+ 
+
+  h1 {
+    font-size: 2.5rem;
+    color:#F24822;
+    padding-left: 30px;
+    display: inline-block;
+  }
+  
+
+ .Descriptions {
+  padding-left: 10px;
+  color: white;
+  display: flex;
+  }
+  
+  .Descriptions p, .Commande p, .Allergene  p{
+    margin-left: 20px;
+  }
+
+.Commande, .Allergene {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #F24822;
+  padding : 10px;
+  display: flex;
+  width :auto;
+}
+
+
+.ImgProduit img{
+  width: 100px;
+  height: 100px;
+}
+
+.Corbeille img {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 70%;
+}
+
+.Heure, .TypePaiement,
+.Statut, .Prix,
+.HeureLivraison, .EffetAllergene{
+  margin-left: 45px;
+}
+
+
+input{
+  background-color: #F24822;
+  color: white;
+  border-radius: 30px;
+  padding:20px;
+  width: 250px;
+  margin-left: 70%;
+  margin-bottom: 1%; 
+}
+
+  footer{
+    padding: 5px;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    left: 1;
+    right: 0;
+      justify-content: space-between;
+      height: auto;
+      width: auto;
+      
+  }

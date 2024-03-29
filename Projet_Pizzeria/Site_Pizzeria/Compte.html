@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="IMG/LogoCorner.png">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <script src="javascript/AfficherNumero.js"></script>
+  <title>Alta Mama</title>
+</head>
+<body>
+	<header>
+		<div class="navbar">
+			<div class="icon">
+				<a href="index.php"><img src="IMG/LogoCorner.png" alt="Logo"></a>
+			  </div>
+		  <ul>
+			<li class="menu-deroulant">
+				<a href="#"><img src="IMG/LogoMenu.png" alt="Logo"></a>
+				<ul class="sous-menu">
+					<li><a href="NotreCarte.php">Notre Carte</a></li>
+					<li><a href="NosBoissons.php">Nos Boissons</a></li>
+					<li><a href="NosAccompagnements.php">Nos Accompagnements</a></li>
+				</ul>
+			</li>
+			<li><a href=""><img src="IMG/LogoTelephone.png" alt="Logo"></a></li>
+			<li><a href="PanierVide.php"><img src="IMG/LogoPanier.png" alt="Logo"></a></li>
+			<li><a href="InfoUtilisateur.php"><img src="IMG/LogoCompte.png" alt="Logo"></a></li>
+		  </ul>
+		</div>
+	  </header>
+	 <main>
+		<div class="connexion">
+			<form action="Compte.php" method="get">
+			<fieldset>
+				<legend>SE CONNECTER</legend>
+				<div>
+					<label for="email">Email ou Login: </label>
+					<input type="text" name="email" id="email" value="Email ou Login"required>
+				</div>
+				<div>
+					<label for="mdp">Mot de Passe :</label>
+					<input type="password" name="mdp" id="mdp" value="Mot de Passe" required>
+			   </div>
+			   <div class="boutons">
+					<div id="bouton">
+						<input type="submit" value="Se connecter" name="Connecter">
+					</div>
+					<div  id="bouton">
+						<input type="submit" value="Guest" name="Guest">
+					</div>
+				</div>
+			</fieldset>
+			</form>
+		</div>
+		<div class="inscription">
+			<form action="Compte.php" method="get">
+			<fieldset >
+				 <legend>S'INSCRIRE </legend>
+					<div>
+						<label for="Nom">Nom : </label>
+						<input type="text" name="Nom" id="Nom" required>
+					</div>
+					<div>
+						<label for="Prenom">Prénom : </label>
+						<input type="text" name="Prenom" id="Prénom" required>
+					</div>
+					<div>
+						<label for="numero">Tél : </label>
+						<input type="tel" name="numero" id="numero" required>
+				   </div>
+					<div>
+						<label for="email">Email : </label>
+						<input type="text" name="email" id="email" required>
+					</div>
+					<div>
+						<label for="Adresse">Adresse :</label>
+						<input type="text" name="Adresse" id="Adresse" required>
+					</div>
+					<div>
+						<label for="CodePostal">Code Postal :</label>
+						<input type="text" name="CodePostal" id="CodePostal" required>
+					</div>
+					<div>
+						<label for="mdp1">Mot de Passe :</label>
+						<input type="password" name="mdp1" id="mdp1" required>
+					</div>
+					<div class="inscrire">
+						<div id="bouton">
+							<input type="submit" value="S'inscrire" name="Inscrire">
+						</div>
+					</div>
+			</fieldset>
+			</form>
+		</div>
+		
+	 </main>
+	  
+
+  <footer>
+	<small>Copyright © 2023 - ALTA MAMA - Création site web par Nathan_Corentin - Commander en ligne</small>
+  </footer>
+  
+</body>
+</html>
